@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: grid;
+    width: 100%;
+    background-color: #6F6AF7;
+    color: white;
+    grid-template-columns: auto auto auto auto;
+}
+.navbar div {
+    padding-left:60px;
+}
+.navbar .logo h1 {
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 80px;
+    padding-left: 20px;
+    margin: 0;
+    margin-top: 5px;
+}
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.menu ul li {
+    padding: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color:white; 
+    font-size: 18px;
+    font-family: DM Sans;
+}
+.search-box input {
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 35px;
+    border: 0;
+}
+.sidebar-icon i {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.header-content {
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.header-content .div-r {
+    padding:0px 10px;
+    width: 300px;
+    max-height: 500px;
+}
+.header-content .div-r img {
+    width: 350px;
+}
+.header-content .div-l textarea {
+    width: 100%;
+    height: 385px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+::placeholder{
+    font-family: DM Sans;
+}
+.mid-content {
+    padding-top:60px;
+    display: flex;
+    justify-content: space-around;
+    color:white;
+}
+.mid-content div {
+    border-radius: 8px;
+    padding: 0px 60px 0px 20px;
+    min-width: 120px;
+    box-shadow: 0 10px 20px 1px rgba(64,60,67,.24);
+}
+.mid-content div p {
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.mid-content .tq {
+    background-color: #929DFF;
+}
+.mid-content .ta {
+    background-color: #734CF2;
+}
+.mid-content .part {
+    background-color: #D288FF;
+}
+.mid-content .pass {
+    background-color: #000000;
+}
+
+.footer{
+    padding: 60px;
+}
+.footer-box {
+    background-color: #483EFF;
+    width: 100%;
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 350px auto;
+    padding: 20px;
+}
+.footer-box button {
+    padding:20px;
+    border: 2px solid white;
+    font-size: 18px;
+    font-family: DM Sans;
+    font-weight: 700;
+    background-color: #483EFF;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 14px;
+}
+.btn-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 400px;
+    padding: 0px 60px;
+}
+.btn-box button {
+    width: 200px;
+    cursor: pointer;
+}
+.btn-box button#yi {
+    background-color: #BCE0F6;
+    color:#000000;
+    border-color: #BCE0F6;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.footer-box .info-box{
+    background-color: white;
+    border-radius: 14px;
+    padding:40px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box .info-box h1 {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.footer-box .info-box p{
+    font-family: Roboto;
+    letter-spacing: 1px;
+    font-size: 18px;
+    padding-left: 10px
+}
+
+.info-box .next-btn {
+    align-self: flex-end;
+    cursor: pointer;
+}
+.info-box .next-btn button {
+    color: white;
+    padding: 16px 40px;
+    background-color: #000000;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+img.sticky-btn {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
